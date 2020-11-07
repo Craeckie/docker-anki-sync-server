@@ -23,7 +23,8 @@ fi
 
 echo Updating database schema
 
-/app/anki-sync-server/utils/migrate_user_tables.py
+/app/anki-sync-server/src/utils/migrate_user_tables.py
 
+cd src
 echo Starting tsudoko\'s anki-sync-server
 python -m ankisyncd
